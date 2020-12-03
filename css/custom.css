@@ -1,0 +1,892 @@
+/*GLOBAL*/
+:root {
+    --gps-primary: #d4a373;
+    --gps-body: #f9f9f9;
+    --gps-text-black: #4f4f4f;
+    --gps-footer: #ccd5ae;
+    --gps-font-family: 'Poppins', sans-serif;
+    --gps-text-white: #f9f9f9;
+    --gps-font-bold: 400;
+    --gps-font-light: var(--gps-font-light)
+}
+
+body {
+    background: var(--gps-body);
+}
+
+* {
+    font-family: 'Poppins', serif;
+}
+
+.card {
+    background: transparent;
+    border: 0;
+    box-shadow: 0 0 transparent;
+}
+
+.gps-strong {
+    font-weight: var(--gps-font-bold);
+}
+
+.gps-light {
+    font-weight: var(--gps-font-light)
+}
+
+.gps-primary-text {
+    color: var(--gps-primary);
+}
+
+.gps-button {
+    background: var(--gps-primary);
+    color: var(--gps-text-white);
+}
+
+.gps-button:hover {
+    background: #ac855d;
+    color: var(--gps-text-white);
+}
+
+.gps-outline-button {
+    border-color: var(--gps-primary);
+    color: var(--gps-primary);
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+/*Header*/
+
+.custom-header {
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 99;
+    -webkit-box-shadow: 2px 3px 4px 0 rgba(0, 0, 0, .1);
+    box-shadow: 2px 3px 4px 0 rgba(0, 0, 0, .1);
+    position: relative;
+    padding: 0;
+    max-height: 100px;
+    height: 100px;
+    background: #f9f9f9;
+}
+
+.custom-header ul li.nav-item a {
+    line-height: 100px;
+    color: var(--gps-text-black);
+    font-size: 14px;
+    padding: 0 20px;
+    position: relative;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
+
+.custom-header ul li.nav-item {
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-header .dropdown-item, .custom-header .dropdown-toggle {
+    padding: 10px !important;
+    line-height: 20px !important;
+}
+
+.custom-header .navbar-brand {
+    transform: scale(1.5);
+}
+
+.flex-space-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-space-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (min-width: 992px) {
+    .dropdown-menu .dropdown-toggle:after {
+        border-top: .3em solid transparent;
+        border-right: 0;
+        border-bottom: .3em solid transparent;
+        border-left: .3em solid;
+    }
+
+    .dropdown-menu .dropdown-menu {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .dropdown-menu li {
+        position: relative;
+    }
+
+    .nav-item .submenu {
+        display: none;
+        position: absolute;
+        left: 100%;
+        top: -7px;
+    }
+
+    .nav-item .submenu-left {
+        right: 100%;
+        left: auto;
+    }
+
+    .dropdown-menu > li:hover {
+        background-color: #f1f1f1
+    }
+
+    .dropdown-menu > li:hover > .submenu {
+        display: block;
+    }
+}
+
+/*End of Header*/
+
+/*------------------------------------------------------------------*/
+
+/*Hero Banner*/
+
+.hero-banner {
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-banner h1 {
+    color: var(--gps-text-white);
+    margin-bottom: 3rem;
+}
+
+/*End of Hero banner*/
+
+/*Welcome to Section*/
+
+.welcome-section {
+    height: 50vh;
+    background: var(--gps-body);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-section img {
+    height: 35vh;
+    width: 100%;
+    border-radius: 5px;
+}
+
+/*We got fun and texts JK End of section*/
+
+/*Accommodation Section*/
+
+.accommodation-section {
+    min-height: 70vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /*background: var(--gps-body);*/
+}
+
+.accommodation-section h2 {
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.accommodation-section .padded-cards {
+    padding: 0 30px;
+}
+
+.accommodation-section .padded-cards .card {
+    background: transparent;
+    box-shadow: 0 0 transparent;
+}
+
+.accommodation-section .padded-cards .card-title {
+    font-weight: var(--gps-font-bold);
+}
+
+.accommodation-section .padded-cards .card-text {
+    font-weight: var(--gps-font-light)
+}
+
+.accommodation-section .padded-cards a {
+    color: var(--gps-text-white);
+}
+
+.accommodation-section .card-img-top {
+    height: 30vh;
+    width: 100%;
+}
+
+/*Accommodation section*/
+
+/*Review Section*/
+
+.review-section {
+    text-align: center;
+    min-height: 50vh;
+    background: linear-gradient(0, #d4a37380, #d4a37370), url("https://hotelhimalaya.com.np/images/slideshow/97mC0-lobby.jpg");
+}
+
+.review-section-card {
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.review-section h3, .review-section h5 {
+    color: var(--gps-text-white);
+}
+
+.review-section h5 {
+    font-weight: var(--gps-font-light)
+}
+
+.review-section h3 {
+    font-weight: var(--gps-font-bold);
+    letter-spacing: 1rem;
+}
+
+.review-section h4 {
+    font-weight: var(--gps-font-bold);
+    color: var(--gps-primary);
+}
+
+.review-section h6 {
+    font-weight: var(--gps-font-light)
+}
+
+.review-section h3::before, .review-section h3::after {
+    content: '——————';
+    letter-spacing: -1rem;
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+/*End of Review section 1/5*/
+
+/*------------------------------------------------------------------*/
+
+/*Room Pages*/
+
+/*Banner section*/
+.room-banner-section {
+    max-height: 60vh;
+    background: linear-gradient(0, #33333390, #33333390), url('https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/88901e46917757.586a89fac9eb9.png');
+    height: 60vh;
+}
+
+/*End of banner section*/
+
+/*Room Info Section*/
+
+.room-info-section {
+    text-align: center;
+}
+
+.room-info-section h1 {
+    color: var(--gps-primary);
+    font-weight: var(--gps-font-bold);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.room-info-section h6 {
+    font-weight: var(--gps-font-light);
+}
+
+/*End of Room Info Section*/
+
+
+/*Room Carousel screen*/
+
+.room-info-carousel {
+    background: var(--gps-body);
+}
+
+.room-info-carousel .carousel-thumbnails .carousel-indicators {
+    position: static;
+    left: initial;
+    width: initial;
+    margin-right: initial;
+    margin-left: initial;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.room-info-carousel .carousel-indicators li {
+    height: 100px;
+    width: 100px !important;
+}
+
+.room-info-carousel .carousel-indicators li {
+    height: 50px;
+    width: 100px !important;
+}
+
+/* end of Room Carousel screen */
+
+/*Room Info Facilities*/
+
+.room-info-facilities {
+    background: var(--gps-body);
+}
+
+.room-info-facilities ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+.room-info-facilities ul li {
+    font-weight: 200;
+    color: var(--gps-text-black);
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.room-info-facilities h1 {
+    color: var(--gps-primary);
+    font-weight: var(--gps-font-bold);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.room-info-facilities h1::before,
+.room-info-facilities h1::after {
+    content: '-----'
+}
+
+/*End Room Info Facilities*/
+
+/* Room Cards List */
+
+.room-cards {
+    margin-bottom: 5rem;
+    text-align: center;
+    padding: 0 3rem;
+}
+
+.room-cards .card-body {
+    padding: 3rem;
+}
+
+.room-cards .card-img-top {
+    height: 250px;
+}
+
+.room-cards .card-body .card-title {
+    font-weight: var(--gps-font-bold);
+}
+
+.room-cards .card-body .card-text {
+    font-weight: var(--gps-font-light);
+}
+
+.rooms-similar-section {
+    min-height: 70vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /*background: var(--gps-body);*/
+}
+
+.rooms-similar-section h2 {
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.rooms-similar-section .padded-cards {
+    padding: 0 30px;
+}
+
+.rooms-similar-section .padded-cards .card {
+    background: transparent;
+    box-shadow: 0 0 transparent;
+}
+
+.rooms-similar-section .padded-cards .card-title {
+    font-weight: var(--gps-font-bold);
+}
+
+.rooms-similar-section .padded-cards .card-text {
+    font-weight: var(--gps-font-light)
+}
+
+.rooms-similar-section .padded-cards a {
+    color: var(--gps-text-white);
+}
+
+.rooms-similar-section .card-img-top {
+    height: 30vh;
+    width: 100%;
+}
+
+/* Room cards list */
+
+/*------------------------------------------------------------------*/
+
+/* Services Pages*/
+
+/*Services banner*/
+
+.services-banner-section {
+    max-height: 40vh;
+    background: url('https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/88901e46917757.586a89fac9eb9.png') top;
+    height: 40vh;
+}
+
+.services-pages-texts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.services-pages-texts h1 {
+    color: var(--gps-primary);
+    font-weight: var(--gps-font-bold);
+    letter-spacing: 2px;
+}
+
+.services-pages-texts h6 {
+    color: var(--gps-text-black);
+    font-weight: var(--gps-font-light);
+    letter-spacing: 2px;
+}
+
+.services-section {
+    margin-bottom: 3rem;
+}
+
+.services-section .services-section-card {
+    margin: 0 20px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.services-section i {
+    color: var(--gps-primary);
+}
+
+/*End of services banners*/
+
+/*------------------------------------------------------------------*/
+
+/* Gallery Pages*/
+
+.gallery-banner-section {
+    max-height: 40vh;
+    background: url('https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/88901e46917757.586a89fac9eb9.png') top;
+    height: 40vh;
+}
+
+.gallery-pages-texts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.gallery-pages-texts h1 {
+    color: var(--gps-primary);
+    font-weight: var(--gps-font-bold);
+    letter-spacing: 2px;
+}
+
+.gallery-pages-texts h6 {
+    color: var(--gps-text-black);
+    font-weight: var(--gps-font-light);
+    letter-spacing: 2px;
+}
+
+.gallery-sections {
+    text-align: center;
+}
+
+.gallery-sections ul {
+    justify-content: center;
+}
+
+.gallery-sections ul li a {
+    background: #333;
+    color: var(--gps-text-black) !important;
+    border-radius: 10% !important;
+}
+
+.gallery-sections ul li a.active {
+    background: var(--gps-primary) !important;
+    color: var(--gps-text-white) !important;
+    border-radius: 10% !important;
+}
+
+
+/*------------------------------------------------------------------*/
+
+/* About sections*/
+
+.about-banner-section {
+    max-height: 40vh;
+    background: url('https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/88901e46917757.586a89fac9eb9.png') top;
+    height: 40vh;
+}
+
+.about-section {
+    padding: 5rem;
+    text-align: center;
+}
+
+.about-section h1 {
+    color: var(--gps-primary);
+    font-weight: var(--gps-font-bold);
+    letter-spacing: 2px;
+}
+
+.about-section p {
+    color: var(--gps-text-black);
+    font-weight: var(--gps-font-light);
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.about-section img {
+    height: 40vh;
+    width: 100%;
+}
+
+/*End of About */
+/*------------------------------------------------------------------*/
+
+/*Contact us page*/
+
+.contact-banner-section {
+    max-height: 40vh;
+    background: url('https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/88901e46917757.586a89fac9eb9.png') top;
+    height: 40vh;
+}
+
+.contact-section {
+    padding: 5rem;
+}
+
+.contact-section .list-group-item {
+    background: transparent;
+    border: 0;
+}
+
+.contact-section h1, h3 {
+    color: var(--gps-primary);
+    font-weight: var(--gps-font-bold);
+    letter-spacing: 2px;
+}
+
+.contact-section p {
+    font-weight: var(--gps-font-bold);
+    font-size: 16px;
+}
+
+.contact-section p span {
+    font-size: 14px;
+}
+
+.contact-section input, .contact-section select {
+    height: 60px;
+    border-color: gainsboro;
+    border-radius: 10px;
+}
+
+.contact-section textarea {
+    border-color: gainsboro;
+    border-radius: 10px;
+}
+
+.contact-page-google-maps {
+    height: 400px;
+    width: 100vw;
+}
+
+#map {
+    height: 100%;
+}
+
+/*End of Contact us page*/
+
+/*------------------------------------------------------------------*/
+
+/*Footer here*/
+.gps-footer {
+    background: linear-gradient(0, rgb(0 0 0 / 75%), rgb(10 10 10 / 74%)), url(https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/88901e46917757.586a89fac9eb9.png);
+    color: var(--gps-text-white);
+}
+
+.gps-footer a {
+    color: var(--gps-text-white) !important;
+}
+
+.gps-footer img.brand-image {
+    height: 150px;
+}
+
+.gps-footer h6 {
+    font-size: larger;
+}
+
+.gps-footer li {
+    padding-bottom: 20px;
+    font-size: larger;
+}
+
+.gps-footer .footer-partners {
+    list-style-type: none;
+}
+
+.gps-footer .footer-partners .intro-img img {
+    height: 50px;
+    margin: 0 20px;
+}
+
+/*End of footer*/
+
+/*GPS TRAVEL*/
+
+.blue-box {
+    background: var(--gps-primary);
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: var(--gps-primary);
+    border-color: transparent;
+}
+
+.text-primary {
+    color: var(--gps-primary) !important;
+}
+
+.trip-fact-box {
+    border: 1px solid gainsboro;
+}
+
+.trip-fact-box-title {
+    background: #ccc;
+    color: var(--gps-text-black);
+    padding: 10px
+}
+
+.trip-fact-items {
+    background: var(--gps-text-white);
+    color: var(--gps-text-black);
+    padding: 20px
+}
+
+.related-package-item img {
+    height: 80px;
+    width: 100px;
+}
+
+.related-package-item {
+    margin-bottom: 10px;
+}
+
+.trip-fact-recommendations {
+    background: #f1f1f1;
+    padding: 20px
+}
+
+/*-----------------------------------------------*/
+
+.travel-banner-section {
+    height: 50vh;
+    background: linear-gradient(0, #d4a37380, #d4a37370), url("https://hotelhimalaya.com.np/images/slideshow/97mC0-lobby.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 3rem 0;
+}
+
+.travel-banner-section input, .travel-banner-section select {
+    height: 60px;
+    border-radius: 10%;
+}
+
+@media (min-width: 992px) {
+    select.form-control:not([size]):not([multiple]) {
+        height: 54px;
+        border-radius: 27px;
+    }
+}
+
+form {
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    font-size: 0;
+}
+
+.custom_select:after {
+    right: 20px;
+    color: #666;
+}
+
+.custom_select:after {
+    font-family: FontAwesome;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    content: "\f107";
+    right: 10px;
+    font-size: 20px;
+    color: #636363;
+    height: 20px;
+    line-height: 20px;
+    margin-top: -10px;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transition: .2s -webkit-transform;
+    transition: .2s -webkit-transform;
+    transition: .2s transform;
+    transition: .2s transform, .2s -webkit-transform;
+    pointer-events: none;
+}
+
+::selection {
+    background-color: #f2830f;
+    color: #fff;
+}
+
+.custom_select {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.custom_select {
+    width: 100%;
+}
+
+
+.luxury-tours-section {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 5rem 0;
+}
+
+.luxury-stars i, .luxury-stars {
+    font-size: small;
+}
+
+.luxury-stars i {
+    color: var(--gps-primary);
+}
+
+.luxury-stars span {
+    font-weight: lighter;
+}
+
+.travel-styles-section {
+    margin-bottom: 3rem;
+}
+
+.travel-styles-section i {
+    display: block;
+}
+
+.travel-styles-section .services-section-card {
+    margin: 0 20px;
+    /*padding: 2rem;*/
+    text-align: center;
+}
+
+.travel-styles-section i {
+    color: var(--gps-primary);
+}
+
+.travel-blog-section .blog-item {
+    position: relative;
+}
+
+.blog-item-date {
+    position: absolute;
+    top: 8px;
+    right: 0;
+    background: var(--gps-primary);
+    color: var(--gps-text-white);
+    padding: 5px;
+    font-size: 12px;
+}
+
+.partners .partners-list {
+    padding: 0;
+    margin: -15px -25px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.partners .partners-list > li {
+    padding: 15px 25px;
+    list-style: none;
+}
+
+.partners .partners-list .item .intro-img {
+    width: 75px;
+}
+
+.partners .partners-list .item .intro-img img, .partners .partners-list .item .intro-img svg {
+    max-width: none;
+    max-height: 60px;
+}
+
+.partners .partners-list .item .intro-text {
+    padding-left: 15px;
+}
+
+.partners .partners-list .item .intro-text h4 {
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-bottom: 0;
+    color: #666;
+}
+
+
+.partners .partners-list .item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+
+
+
+
