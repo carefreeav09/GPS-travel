@@ -885,7 +885,81 @@ form {
     align-items: center;
 }
 
+/*------------------------------*/
 
+/*Package display page*/
+
+
+.title-banner {
+    padding: 30px 0;
+    background: var(--gps-primary);
+}
+
+
+.title-banner h2 {
+    font-weight: bold;
+    color: var(--gps-text-white);
+}
+
+.breadcrumb-banner {
+    padding: 20px 0;
+    background: #eeeeee;
+}
+
+.breadcrumb-banner .breadcrumb {
+    background: transparent;
+}
+
+.facebook-color {
+    color: #3b5998;
+}
+
+.twitter-color {
+    color: #1DA1F2;
+}
+
+.instagram-color {
+    color: #F77737;
+}
+
+.packages-section {
+    padding: 5rem 0;
+}
+
+.packages-section .packages {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Bottom left text */
+.packages-section .packages .package-name-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #33333380;
+    width: 100%;
+    padding: 10px;
+}
+
+/* Top left text */
+.packages-section .packages .trips-count-text {
+    position: absolute;
+    top: 8px;
+    right: 0;
+    background: var(--gps-primary);
+    padding: 5px;
+}
+
+.trip-info-section  {
+    background: #cccccc;
+}
+
+.ask-a-question-wrapper {
+    padding:5px;
+    background: var(--gps-primary);
+    color: var(--gps-text-white);
+}
 
 
 
