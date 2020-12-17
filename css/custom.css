@@ -576,8 +576,13 @@ section {
 
 .contact-banner-section {
     max-height: 40vh;
-    background: url('https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/88901e46917757.586a89fac9eb9.png') top;
+    background: linear-gradient(0deg, #0d0d0d80, #33333390), url('https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/88901e46917757.586a89fac9eb9.png') top;
     height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    font-weight: bold;
 }
 
 .contact-section {
@@ -951,14 +956,40 @@ form {
     padding: 5px;
 }
 
-.trip-info-section  {
+.trip-info-section {
     background: #eeeeee;
 }
 
 .ask-a-question-wrapper {
-    padding:5px;
+    padding: 5px;
     background: var(--gps-primary);
     color: var(--gps-text-white);
+}
+
+.contact-form-fields {
+    background: #eeeeee;
+}
+
+.contact-info-section .avatar--wrapper {
+    width: 200px;
+    overflow: hidden;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.contact-info-section .avatar--wrapper img {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+.contact-form-fields form {
+    display: block;
+    width: 50%;
+    margin: auto;
 }
 
 
