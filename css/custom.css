@@ -992,6 +992,49 @@ form {
     margin: auto;
 }
 
+.about-gps-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-gps-section img {
+    height: 600px;
+    width: 600px;
+    margin-bottom: 3rem;
+}
+
+.about-gps-ceo {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-gps-ceo img {
+    border-radius: 10px;
+    height: 60vh;
+    width: auto;
+}
+
+.about-experts-gps {
+    min-height: 40vh;
+    background: var(--gps-body);
+    text-align: center;
+    padding: 4rem;
+}
+
+.about-experts-gps img{
+
+}
+
+.about-avatar-images {
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+
 
 
 
