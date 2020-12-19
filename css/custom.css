@@ -1035,6 +1035,21 @@ form {
     border-radius: 10px;
 }
 
+.form-label {
+    margin-bottom: .5rem;
+    color: rgba(0,0,0,.6);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form-control-inline {
+    display: inline-block !important;
+    width: auto !important;
+    margin: auto;
+}
+
+
+
 
 
 
