@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0ff0919b-63f9-48d1-aa90-de0f84f47d81" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +23,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -58,28 +61,11 @@
       <workItem from="1608217130393" duration="800000" />
       <workItem from="1608305956322" duration="546000" />
       <workItem from="1608339161912" duration="3475000" />
+      <workItem from="1611237696173" duration="2779000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606963305739">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1606963305739" />
-    <state x="458" y="-786" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606804899025">
-      <screen x="-240" y="-1080" width="1920" height="1080" />
-    </state>
-    <state x="458" y="-786" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050/-240.-1080.1920.1080@-240.-1080.1920.1080" timestamp="1606804899025" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1606960271295">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1606960271295" />
-    <state x="422" y="146" width="596" height="608" key="find.popup" timestamp="1606964679316">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="422" y="146" width="596" height="608" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1606964679316" />
   </component>
 </project>

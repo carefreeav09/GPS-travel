@@ -551,6 +551,13 @@ section {
     text-align: center;
 }
 
+@media (max-width: 769px) {
+    .about-section {
+        padding: 2rem;
+        text-align: center;
+    }
+}
+
 .about-section h1 {
     color: var(--gps-primary);
     font-weight: var(--gps-font-bold);
@@ -1033,6 +1040,39 @@ form {
     height: 200px;
     width: 100%;
     border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+
+
+    .about-gps-section {
+        height: 100vh;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .about-gps-section img {
+        height: 300px;
+        width: 100%;
+
+    }
+
+    .about-gps-ceo {
+        display: block;
+        height: 100%;
+        margin-bottom: 3rem;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .about-gps-ceo img {
+        border-radius: 10px;
+        height: 30vh;
+        width: auto;
+    }
 }
 
 .form-label {
